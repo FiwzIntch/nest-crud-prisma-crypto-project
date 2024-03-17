@@ -9,7 +9,6 @@ Crypto CRUD Project
 $ docker-compose up -d
 
 # Create .env By Copy .env.example
-
 ```
 
 
@@ -19,7 +18,7 @@ $ docker-compose up -d
 # install
 $ yarn install
 
-# prisma init
+# init database
 $ yarn prisma db:deploy
 
 # seed example data
@@ -32,6 +31,5 @@ $ yarn prism db:seed
 ```bash
 # development
 $ yarn run start
-
 
 ```
