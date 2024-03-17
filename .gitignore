@@ -29,4 +29,4 @@ lerna-debug.log*
 .env.production.local
 .env.local
 
-/posstgres-data
+/postgres-data
