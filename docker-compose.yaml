@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  postgres:
+    image: postgres:10.1-alpine
+    ports:
+      - "5432:5432"
+    volumes:
+       - ./docker/postgres-data:/var/lib/postgresql/data
+    environment:
+      # - "TZ=Asia/Bangkok"
+      - "TZ=Etc/UTC"
+      - "POSTGRES_USER=postgres"
+      - "POSTGRES_PASSWORD=postgres"
+    networks:
+      - postgres
+    restart: unless-stopped
+networks:
+  postgres:
+    driver: bridge
+
