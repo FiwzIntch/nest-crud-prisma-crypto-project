@@ -5,7 +5,7 @@ Crypto CRUD Project
 ## API Specification Document
 
 ```bash
-# development
+# endpoint
 $ http://localhost:3000/api
 ```
 
@@ -38,5 +38,43 @@ $ yarn prism db:seed
 ```bash
 # development
 $ yarn run start
+
+```
+
+## ระบบสามารถตั้ง ซื้อ
+
+```bash
+# endpoint
+$ http://localhost:3000/purchase (POST)
+
+```
+
+
+## ระบบสามารถตั้ง ขาย
+
+```bash
+# endpoint
+$ http://localhost:3000/order (POST)
+
+```
+
+## ระบบบันทึกการโอนเงินและซื้อ-ขาย
+
+```bash
+# ต้องกด endpoint trade ก่อน ถึงจะขึ้นบันทึกการซื้อ-ขาย
+$ http://localhost:3000/trade (POST)
+
+# endpoint บันทึกการซื้อ-ขาย
+$ http://localhost:3000/transaction (GET)
+
+```
+
+
+## ระบบบันทึกการแลกเปลี่ยน
+
+```bash
+# สามารถเรียก endpoint นี้และ ใส่ข้อมูลเพื่อเทส
+$ http://localhost:3000/transfer (POST)
+
 
 ```
