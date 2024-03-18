@@ -9,7 +9,7 @@ Crypto CRUD Project
 $ http://localhost:3000/api
 ```
 
-### Install Postgres By Docker-compose
+### Install PostgreSQL By Docker-compose
 
 ```bash
 # Run cmd
@@ -24,13 +24,21 @@ $ docker-compose up -d
 ```bash
 # install
 $ yarn install
+```
 
+
+## Generate DB
+
+```bash
 # init database
-$ yarn prisma db:deploy
+$ yarn db:deploy
+```
 
-# seed example data
-$ yarn prism db:seed
+## Seed DB
 
+```bash
+# init database
+$ yarn db:seed
 ```
 
 ## Running the app
@@ -38,7 +46,6 @@ $ yarn prism db:seed
 ```bash
 # development
 $ yarn run start
-
 ```
 
 ## ระบบสามารถตั้ง ซื้อ
@@ -46,7 +53,6 @@ $ yarn run start
 ```bash
 # endpoint
 $ http://localhost:3000/purchase (POST)
-
 ```
 
 
@@ -55,7 +61,6 @@ $ http://localhost:3000/purchase (POST)
 ```bash
 # endpoint
 $ http://localhost:3000/order (POST)
-
 ```
 
 ## ระบบบันทึกการโอนเงินและซื้อ-ขาย
@@ -66,7 +71,6 @@ $ http://localhost:3000/trade (POST)
 
 # endpoint บันทึกการซื้อ-ขาย
 $ http://localhost:3000/transaction (GET)
-
 ```
 
 
@@ -75,6 +79,4 @@ $ http://localhost:3000/transaction (GET)
 ```bash
 # สามารถเรียก endpoint นี้และ ใส่ข้อมูลเพื่อเทส
 $ http://localhost:3000/transfer (POST)
-
-
 ```
