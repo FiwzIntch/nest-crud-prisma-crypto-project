@@ -2,6 +2,9 @@
 
 Crypto CRUD Project
 
+# ER Diagram
+please click [`ER Diagram`](https://github.com/FiwzIntch/crypto-crud-project/blob/main/prisma/ERD.md)
+
 ## Swagger API Document And Testing Tool
 
 ```bash
