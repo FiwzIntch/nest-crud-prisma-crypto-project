@@ -22,7 +22,6 @@ $ docker-compose up -d
 ## Installation
 
 ```bash
-# install
 $ yarn install
 ```
 
@@ -30,21 +29,18 @@ $ yarn install
 ## Generate DB
 
 ```bash
-# init database
 $ yarn db:deploy
 ```
 
 ## Seed DB
 
 ```bash
-# init database
 $ yarn db:seed
 ```
 
 ## Running the app
 
 ```bash
-# development
 $ yarn run start
 ```
 
