@@ -1,8 +1,15 @@
+<p align="center">
+  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
+  <h2 align="center">Nest CRUD Prisma Crypto Project</h2>
+</p>
+
+[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
+[circleci-url]: https://circleci.com/gh/nestjs/nest
+
 ## Description
+This project is a playground project utilizing Nest.js, Prisma, and PostgreSQL. It serves as a simple CRUD (Create, Read, Update, Delete) application with additional features related to cryptography.
 
-Crypto CRUD Project
-
-# ER Diagram
+## ER Diagram
 please click [`ER Diagram`](https://github.com/FiwzIntch/crypto-crud-project/blob/main/prisma/ERD.md)
 
 ## Swagger API Document And Testing Tool
@@ -13,7 +20,6 @@ $ http://localhost:3000/api
 ```
 
 ### Install PostgreSQL By Docker-compose
-
 ```bash
 # Run cmd
 $ docker-compose up -d
@@ -79,3 +85,14 @@ $ http://localhost:3000/transaction (GET)
 # สามารถเรียก endpoint นี้และ ใส่ข้อมูลเพื่อเทส
 $ http://localhost:3000/transfer (POST)
 ```
+
+## Tools Used
+
+- **Nest.js**: A progressive Node.js framework for building efficient, reliable, and scalable server-side applications.
+- **Prisma**: A modern database toolkit for Node.js and TypeScript, designed to make database access easy and intuitive while providing type safety and auto-completion.
+- **PostgreSQL**: A powerful, open-source relational database system known for its reliability, robustness, and performance.
+
+
+## Contributors
+
+- User: [Thapanee Intachot](https://github.com/FiwzIntch)
